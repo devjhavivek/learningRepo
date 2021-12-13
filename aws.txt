@@ -1,0 +1,11 @@
+1. Amazon EC2
+2. Amazon RDS
+3. Amazon Simple Storage Service (S3)
+4. Amazon CloudFront
+5. Amazon VPC
+6. Amazon SNS
+7. AWS Beanstalk
+8. AWS Lambda
+9. AWS Autoscaling
+10. AWS IAM
+
