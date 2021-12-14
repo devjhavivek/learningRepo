@@ -1,0 +1,9 @@
+Classless Inter Domain Routing
+
+CIDR values represent IP addressing in VPC. The IP range created with IP 
+address and subnet mask.
+
+It specifically consists of 8 0's and 8 1's binary values. The subnet mask 
+will decide the range of IP address allocated in a particular network. 
+example IP address with subnet mask is 10.0.0.1/24. Subnet mask will decide
+how many spaces should be locked within network.
