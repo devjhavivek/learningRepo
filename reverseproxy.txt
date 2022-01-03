@@ -1,0 +1,18 @@
+Using Nginx
+1. apt install Nginx
+2. cd /etc/nginx/conf.d
+3. create a appname.conf file
+4. edit the file using these details for HTTP
+server {	
+  listen 80;
+  listen [::]:80;
+ 
+  server_name 3.84.188.201;
+	
+  location / {
+	proxy_pass http://localhost:3000/; 
+	
+	}	
+}
+
+5. start the server
